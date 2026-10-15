@@ -3,7 +3,7 @@ import sqlite3
 import os
 import pathlib
 
-DB_DIR = pathlib.Path("/a/Projects/MayaCardio/data")
+DB_DIR = pathlib.Path(__file__).resolve().parent.parent / "data"
 DB_FILE = DB_DIR / "biosignal.db"
 LOSS_LOG = DB_DIR / "losses.log"
 
