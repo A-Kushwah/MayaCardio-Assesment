@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 
 # Import our local session layer (mock persistence).
-from session import store
+from .session import store
 
 
 # ---------------------------------------------------------------------------
